@@ -19,12 +19,26 @@
     <title>Müzik Dükkanı</title>
     <style>
         .iwh{
-            width: 286px;
+            /* width: 286px; */
             height: 286px;
         }
         .prp{
             color: purple;
         }
+        @media  screen and (max-width: 768px) {
+          .sf{
+            display: flex;
+            justify-content: center;
+            margin-left: 0 !important;
+          }   
+      }
+      @media screen and (max-width:992px) {
+          .sf{
+            display: flex;
+            justify-content: center;
+            margin-left: 3rem;
+          }      
+      }
     </style>
   </head>
   <body style="background-color: #e9ecef" ;>
@@ -58,7 +72,7 @@
     <p class="h1 display-3  text-center mt-1 prp">Ürünlerimiz</p>
     <div class="container ">
       <div class="row">
-        <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
           <div class="card" style="width: 18rem">
             <img src="img/gitar1.webp" class="card-img-top iwh" alt="Random Resim" />
             <div class="card-body">
@@ -68,8 +82,8 @@
               </button>
             </div>
           </div>
-        </div>
-        <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          </div>
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
             <div class="card" style="width: 18rem">
               <img src="img/gitar2.webp" class="card-img-top iwh" alt="Yamaha CGS102 1/2 Klasik Gitar" />
               <div class="card-body">
@@ -80,7 +94,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
             <div class="card" style="width: 18rem">
               <img src="img/davul1.webp" class="card-img-top iwh" alt="Random Resim" />
               <div class="card-body">
@@ -91,7 +105,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
             <div class="card" style="width: 18rem">
               <img src="img/davul2.webp" class="card-img-top iwh" alt="Random Resim" />
               <div class="card-body">
@@ -102,7 +116,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
             <div class="card" style="width: 18rem">
               <img src="img/piyano1.webp" class="card-img-top iwh" alt="Random Resim" />
               <div class="card-body">
@@ -113,7 +127,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
             <div class="card" style="width: 18rem">
               <img src="img/piyano2.webp" class="card-img-top iwh" alt="Random Resim" />
               <div class="card-body">
@@ -124,7 +138,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
             <div class="card" style="width: 18rem">
               <img src="img/keman1.webp" class="card-img-top iwh" alt="Random Resim" />
               <div class="card-body">
@@ -135,7 +149,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-3 col-sm-12 col-md-5 col-lg-4">
+          <div class="mt-3 col-sm-12 col-md-5 sf col-lg-4">
             <div class="card" style="width: 18rem">
               <img src="img/keman2.webp" class="card-img-top iwh" alt="Random Resim" />
               <div class="card-body">
